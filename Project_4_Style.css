@@ -1,0 +1,36 @@
+/* style for bodies of the pages*/
+body{
+    background-color:white;
+    padding:0;
+    margin:0;
+}
+/* heading style for web application title*/
+h1 {
+font-style: italic;
+}
+
+/* Styling for drop down menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .User-list {
+    min-width: 170px;
+    position: absolute;
+    display: none;
+    background-color:whitesmoke;
+  }
+  .User-list a {
+    color: black;
+    padding: 14px;
+    text-decoration: black;
+    display:block;
+  }
+
+  .dropdown:hover .User-list {display: block;}
+
+.User-list a:hover {background-color: lightgray;}
+
+/* Out line for dropdown sourced from: https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+
+
